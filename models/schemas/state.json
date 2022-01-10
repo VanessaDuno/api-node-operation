@@ -1,0 +1,23 @@
+{
+    "doc": "schema operation manager api.",
+    "fields": [
+      {
+        "doc": "The operation id.",
+        "name": "operation_id",
+        "type": "string"
+      },
+      {
+        "doc": "The state",
+        "name": "state",
+        "type": "string"
+      },
+      {
+        "doc": "The meta data",
+        "name": "metadata",
+        "type": "string"
+      }
+    ],
+    "name": "OperationManagerAPI",
+    "namespace": "cl.scotibank.operations",
+    "type": "record"
+  }

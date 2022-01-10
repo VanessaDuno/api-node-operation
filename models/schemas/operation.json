@@ -1,0 +1,53 @@
+{
+  "doc": "schema operation manager api.",
+  "fields": [
+    {
+      "doc": "The owner id.",
+      "name": "owner_id",
+      "type": "string"
+    },
+    {
+      "doc": "The type id",
+      "name": "type_id",
+      "type": "string"
+    },
+    {
+      "doc": "The channel",
+      "name": "channel",
+      "type": "string"
+    },
+    {
+      "doc": "The id",
+      "name": "id",
+      "type": "string"
+    },
+    {
+      "doc": "The state",
+      "name": "state",
+      "type": "string"
+    },
+    {
+      "doc": "The payload",
+      "name": "payload",
+      "type": "string"
+    },
+    {
+      "doc": "The meta data",
+      "name": "metadata",
+      "type": "string"
+    },
+    {
+      "doc": "The created date",
+      "name": "createdDate",
+      "type": "string"
+    },
+    {
+      "doc": "The modified Date",
+      "name": "modifiedDate",
+      "type": "string"
+    }
+  ],
+  "name": "OperationManagerAPI",
+  "namespace": "cl.scotibank.operations",
+  "type": "record"
+}

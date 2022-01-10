@@ -1,0 +1,19 @@
+{
+    "create" : {
+        "topic" :  "create-operation",
+        "version":  2,
+        "subject": "create-operation-value"
+    },
+
+    "state" : {
+        "topic" :  "state",
+        "version":  1,
+        "subject": "state-value"
+    },
+    "payload" : {
+        "topic" :  "payload",
+        "version":  2,
+        "subject": "payload-value"
+    }
+}
+
